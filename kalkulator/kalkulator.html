@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kalkulator">
+        <input type="text" id="display" readonly>
+        <div class="tombol">
+            <button class="button2" onclick="bersihkan()"><b>C</b></button>
+            <button class="button2" onclick="hapus()"><b>DE</b></button>
+            <button class="button2" onclick="isi('*')"><b>*</b></button>
+            <button class="button2" onclick="isi('/')"><b>/</b></button>
+            
+            <button class="button" onclick="isi('1')">1</button>
+            <button class="button" onclick="isi('2')">2</button>
+            <button class="button" onclick="isi('3')">3</button>
+
+            <button class="button2" onclick="isi('+')"><b>+</b></button>
+            
+            <button class="button" onclick="isi('4')">4</button>
+            <button class="button" onclick="isi('5')">5</button>
+            <button class="button" onclick="isi('6')">6</button>
+            
+            <button class="button2" onclick="isi('-')"><b>-</b></button>
+            
+            <button class="button" onclick="isi('7')">7</button>
+            <button class="button" onclick="isi('8')">8</button>
+            <button class="button" onclick="isi('9')">9</button>
+            
+            <button class="button2" onclick="isi('.')"><b>.</b></button>
+            <button class="button" onclick="isi('0')">0</button>
+            <button class="button" onclick="isi('00')">00</button>
+            <button class="button" onclick="isi('000')">000</button>
+            
+            <button class="button2" onclick="hasil()"><b>=</b></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
